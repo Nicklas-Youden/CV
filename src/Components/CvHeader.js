@@ -1,7 +1,7 @@
-
+import "../scss/Hedder.scss"
 export default function CvHeader(){
   return ( 
-    <header>
+    <header className="CVHedder">
       <h1 className="Name">
         Nicklas<span className="LastName"> Hansen</span>
       </h1>

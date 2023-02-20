@@ -1,0 +1,14 @@
+.Experience{
+	padding-left: 0.5em;
+	border-top: 1px solid #648276;
+
+	&_Main ul li {
+
+		padding-bottom:1em;
+		 p{
+			display: flex;
+			flex-direction: column;
+		}
+
+	}
+}

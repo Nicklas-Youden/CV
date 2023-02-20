@@ -1,0 +1,25 @@
+
+
+.ItComCards{
+	
+	//padding: 0.1em 0.5em;
+	& ul{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+		border-top: 1px solid #7282a1;
+		border-left: 1px solid #7282a1;
+		
+		
+		& li{
+			border-bottom: 1px solid #7282a1;
+			border-right: 1px solid #7282a1;
+			padding: 0.1em 0.5em;
+		}
+		
+		li:nth-child(4n), li:nth-child(4n+3){
+			background-color: #D0D5DF;
+		}
+		
+	}
+}

@@ -1,8 +1,14 @@
+import "../scss/Footer.scss"
 export default function CvFooter(){
   return(
     <footer>
-      <p>Denne side er lavet efter mit CV som du kan download</p>
-      <a href="./Downloads/CV.pdf" download={"CV"}>"download CV"</a>
+      <section className="CvFooter">
+
+      <p>Denne side er lavet efter mit CV</p>
+
+      
+      <a className="Download" href="./Downloads/CV.pdf" alt="Download CV" download={"CV"}>Download CV</a>
+      </section>
     </footer>
   )
 }

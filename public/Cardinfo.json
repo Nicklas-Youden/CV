@@ -6,7 +6,8 @@
         "text":"HTML & JavaScript"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Rutineret"
@@ -17,7 +18,8 @@
         "text":"Css & Sass"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Rutineret"
@@ -28,7 +30,8 @@
         "text":"Jest & Debugging"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Øvet"
@@ -39,7 +42,8 @@
         "text":"GitHub"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Rutineret"
@@ -50,7 +54,8 @@
         "text":"MD & Dokumentation"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Rutineret"
@@ -61,7 +66,8 @@
         "text":"React"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Rutineret"
@@ -72,7 +78,8 @@
         "text":"Figma & Adobe XD"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Øvet"
@@ -83,7 +90,8 @@
         "text":"MySQL"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Begynder"
@@ -94,7 +102,8 @@
         "text":"JSON"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Øvet"
@@ -102,10 +111,11 @@
     ],[
       {
         "type":"header",
-        "text":"Netlify, NodeJS & NPM;"
+        "text":"Netlify, NodeJS & NPM"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Øvet"
@@ -116,7 +126,8 @@
         "text":"Wordpress & Strapi"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Begynder"
@@ -127,7 +138,8 @@
         "text":"Rest API & Ajax"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Øvet"
@@ -138,7 +150,8 @@
         "text":"Diverse Lib."
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Begynder"
@@ -149,7 +162,8 @@
         "text":"C#"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Øvet"
@@ -160,7 +174,8 @@
         "text":"Netværk"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Øvet"
@@ -171,7 +186,8 @@
         "text":"OS"
       },{
         "type":"Offset",
-        "text":"-"
+        "src":"./svg/Offset.svg",
+        "alt":"Offset line"
       },{
         "type":"skill",
         "text":"Øvet"

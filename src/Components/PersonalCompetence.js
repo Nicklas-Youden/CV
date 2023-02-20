@@ -1,7 +1,13 @@
+import "../scss/LeftSide.scss"
+
 export default function Personal(){
   return(
-    <section>
-      <h2>Personal Komperencer</h2>
+    <section className="Personal">
+      <header>
+        <h2  className="Header">Personlige Kompetencer</h2>
+      </header>
+      <section className="PersonalMain">
+
       <ul>
         <li><p>Pligtopfyldende</p></li>
         <li><p>Stabil</p></li>
@@ -9,6 +15,7 @@ export default function Personal(){
         <li><p>Venling</p></li>
         <li><p>Detalijeorienteret</p></li>
       </ul>
+      </section>
     </section>
   )
 }

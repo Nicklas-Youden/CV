@@ -1,8 +1,13 @@
+import "../scss/LeftSide.scss"
 export default function OtherExp(){
   return(
-    <section>
-      <h2>Andre Kompetencer</h2>
-      
+    <section className="OtherExp">
+      <header className="Header">
+
+      <h2 className="Header">Andre Kompetencer</h2>
+      </header>
+      <section className="OtherExpMain">
+
       <ul>
         <li>
           <p>Dansk (Modersmål)</p>
@@ -14,6 +19,7 @@ export default function OtherExp(){
           <p>Kat. B Kørekort</p>
         </li>
       </ul>
+      </section>
     </section>
   )
 }

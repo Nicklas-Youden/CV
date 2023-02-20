@@ -1,0 +1,13 @@
+.EducationMain ul li p, .Address a p{
+	display: grid;
+	justify-items: end;
+	grid-template-columns: 1fr auto;
+	grid-template-areas: 
+	". ."
+	"Bottom Bottom";
+
+
+	.Year{padding-right: 0.4em;}
+	.EducationMain__step, .Post{
+	grid-area: Bottom;}
+}

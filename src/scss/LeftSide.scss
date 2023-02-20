@@ -1,0 +1,44 @@
+.Contact, .Education, .Personal, .OtherExp{
+
+	
+	//padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-right: 0.5em;
+	//margin-right: 0.5em;
+	border-right: 3px solid #648276;
+
+ 
+	.ContactInfo ul, .EducationMain ul, .PersonalMain ul, .OtherExpMain ul{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+
+		a{
+			display: flex;
+		}
+		
+	}
+	.EducationMain ul li {
+		padding-bottom: 0.5em;
+	}
+	.SVG{
+		&__Mail, &__Phone, &__Address{
+			height: 1.2em;
+			width: 1.2em;
+			padding-right: 0.4em;
+		}
+	}
+
+	
+ }
+
+
+
+
+a{
+	text-decoration: none;
+
+}
+

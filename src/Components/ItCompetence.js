@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import ItCard from "./containers/ItCards";
+import "../scss/ItComSection.scss";
 
 
 
@@ -13,20 +14,25 @@ export default function ItCompetence(){
       .get("/Cardinfo.json")
       .then((response) => {
         setContent(response.data.ItCom);
+        
       });
     },
     [setContent]
-  );
+    );
+    //console.log(content)
   return(
-    <section>
+    <section className="ItComs">
       <header>
-        <h2>IT-Kompetencer</h2>
+        <h2 className="Header">IT-Kompetencer</h2>
       </header>
-      <section>
+      <section className="ItComCards">
 
         <ul>
+          
 
-          {content.map((item, i) => <ItCard key={i} content={item}/>)}
+          {content.map((item, i) => <ItCard  key={i} content={item}/>)}
+          
+          
         </ul>
       </section>
     </section>

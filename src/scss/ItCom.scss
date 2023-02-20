@@ -1,0 +1,36 @@
+
+.ItComs{
+	border-top: 1px solid #648276;
+	padding-left: 0.5em;
+	padding-bottom: 1.5em;
+}
+.ItCom{
+
+
+	display: grid;
+	grid-template-columns: auto  1fr;
+	grid-template-areas: 
+	"title title"
+	"offset skill";
+
+	&__title{
+		font-size: 1em;
+		grid-area:title ;
+	}
+
+	&__skill{
+		
+		font-weight: 700;
+		font-size: 0.95em;
+		grid-area: skill;
+		
+		
+	}
+
+	&__Offset{
+		height: 1.3em;
+		width: 0.7em;
+		padding: 0 1rem;
+		transform: rotate(90deg);
+	}
+}

@@ -1,4 +1,5 @@
 import './App.scss';
+import "./scss/CvSetup.scss"
 import CvHeader from "./Components/CvHeader";
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
@@ -13,17 +14,18 @@ import CvFooter from './Components/Footer';
 
 function App() {
   return (
+    
     <div className="App">
       <CvHeader></CvHeader>
-      <main>
+      <main className='CvMain'>
 
       <Contact/>
       <Resume/>
       <Education/>
       <Experience/>
       <Personal/>
-      <OtherExp/>
       <ItCompetence/>
+      <OtherExp/>
       
       
       </main>
