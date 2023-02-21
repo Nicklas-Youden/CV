@@ -26,9 +26,11 @@ ul{
 //The extre space between the hedder and the first section
 #root{
   background-color: #eee;
+  min-height: 100vh;
+  margin: auto;
 }
 .App{
-  max-width: 50em;
+  max-width: 48em;
   margin: 0 auto;
 
   padding: 0 2em;
